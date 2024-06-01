@@ -1,29 +1,37 @@
-# intelligent-MRI-machine-disease-predection-and-screening
-intelligent MRI machine: disease predection and screening¶ general presentation of the project Following an absence of medication for certain diseases, it is always necessary to provide them at a precausal stage in order to increase the chances of recovery. This is why we thought of creating a Detection and screening model from imaging for example if a patient consults a rheumatologist for a skull fracture and the latter recommends an MRI our program is able to detect a tumor at the level of the brain if it exists. Not only that, MRIs do not generally provide all the information sufficient to make the diagnosis! Our program will lend a hand to help:  The radiologist: to recommend a specialist medcin: for a better diagnosis patient: for early detection of illness  that's why we collected a dataset from several datasets such as brain-tumor, alzheimer, covid_19, chest tumor (due to the time constraint we just collected a dataset of MRI images of 4 different types of disease but we can give a huge database of all diseases since the algorithm has shown these performances) so that the MRI can detect all types of diseases in an automatic way so a patient will be able to make a general diagnosis without the intervention of the doctor after a few minutes.  then we built the deep learning model based on CNN then we built the human machine interface which will be implemented on the MRI scanner
-market research
+Intelligent MRI Machine: Disease Prediction and Screening
+General Presentation of the Project
+Following the absence of medication for certain diseases, it is essential to detect them at an early stage to increase the chances of recovery. This project aims to create a detection and screening model using MRI imaging. For example, if a patient consults a rheumatologist for a skull fracture and the latter recommends an MRI, our program can detect a brain tumor if it exists.
 
-after a study of the existing we noticed that all the algorithms treat a single type of disease (brain cancer only for example) from here we thought of an algorithm encompassing all types of diseases that can be detected by MRI
+Moreover, MRIs do not generally provide all the information sufficient for diagnosis. Our program assists in:
 
-the steps followed in the code:
+Helping radiologists recommend a specialist for better diagnosis.
+Supporting medical practitioners in making more accurate diagnoses.
+Providing patients with early detection of illnesses.
+We collected a dataset from several sources, including brain tumors, Alzheimer’s, COVID-19, and chest tumors. Due to time constraints, we focused on MRI images of these four diseases. However, our algorithm has shown excellent performance, and we can expand it to include a broader range of diseases. This way, a patient can receive a comprehensive diagnosis without a doctor's intervention in just a few minutes.
 
-I - creation of the dataset
-1- collection of datasets of diseases that can be detected by the MRI scan
-2- creation of the global dataset which includes all the datasets to collect
-3- cleaning of the global dataset
-4- resizing the images
-5- visualization of the dataset
-II- creation of the machine learning model
-1- learn the deep learning learning model
-2- evaluation of the model
-3- manual test of the model and visualization of the images
-4- registration of the model
-III- creation of the man-machine interface
-IIII- test and validation of the application
-(the man machine interface is developed on pycharm with the model created but we put all the code in the notebook sheet so that all the code is clear)
+We developed a deep learning model based on Convolutional Neural Networks (CNNs) and built a human-machine interface to be implemented on the MRI scanner.
 
-Dataset resources¶
-https://www.kaggle.com/legendahmed/alzheimermridataset
-https://www.kaggle.com/hamdijarboui/comp-tition-script/edit
-https://www.kaggle.com/mohamedhanyyy/chest-ctscan-images
-https://www.kaggle.com/luisblanche/covidct
-https://www.kaggle.com/hamdallak/the-iqothnccd-lung-cancer-dataset
+Market Research
+Our research showed that existing algorithms typically focus on detecting a single type of disease (e.g., brain cancer). We developed an algorithm that encompasses multiple diseases detectable by MRI.
+
+Steps Followed in the Code
+I. Creation of the Dataset
+Collection of datasets of diseases detectable by MRI.
+Creation of a global dataset combining all collected datasets.
+Cleaning of the global dataset.
+Resizing the images.
+Visualization of the dataset.
+II. Creation of the Machine Learning Model
+Training the deep learning model.
+Evaluation of the model.
+Manual testing of the model and visualization of the images.
+Saving the model.
+III. Creation of the Human-Machine Interface
+Development of the interface using PyCharm, with the model integrated.
+Testing and validation of the application.
+Note: All code is included in the notebook for clarity.
+Dataset Resources in kaggle : 
+Alzheimer's MRI Dataset
+Chest CT Scan Images
+COVID-19 CT Scans
+Lung Cancer Dataset
