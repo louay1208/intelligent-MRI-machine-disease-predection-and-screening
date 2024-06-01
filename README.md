@@ -15,21 +15,25 @@ Market Research
 Our research showed that existing algorithms typically focus on detecting a single type of disease (e.g., brain cancer). We developed an algorithm that encompasses multiple diseases detectable by MRI.
 
 Steps Followed in the Code
+
 I. Creation of the Dataset
 Collection of datasets of diseases detectable by MRI.
 Creation of a global dataset combining all collected datasets.
 Cleaning of the global dataset.
 Resizing the images.
 Visualization of the dataset.
+
 II. Creation of the Machine Learning Model
 Training the deep learning model.
 Evaluation of the model.
 Manual testing of the model and visualization of the images.
 Saving the model.
+
 III. Creation of the Human-Machine Interface
 Development of the interface using PyCharm, with the model integrated.
 Testing and validation of the application.
 Note: All code is included in the notebook for clarity.
+
 Dataset Resources in kaggle : 
 Alzheimer's MRI Dataset
 Chest CT Scan Images
